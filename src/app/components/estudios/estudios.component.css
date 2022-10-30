@@ -1,0 +1,16 @@
+.row
+{
+     
+    background-color: #4e80ac; 
+}
+
+h1 , h3
+{
+    display: inline;
+    
+}
+h1
+{
+    text-align: center;
+    padding: 30px; 
+}

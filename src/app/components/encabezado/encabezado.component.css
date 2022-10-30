@@ -1,0 +1,49 @@
+
+
+.row
+{
+    background-color: #4e80ac;   
+    
+
+}
+
+.conteiner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+#logo
+{
+    width: 170px;
+    filter: brightness(1,1);
+    mix-blend-mode: multiply;
+}
+
+img
+{
+    padding: 1.8px;
+    width: 40px;
+
+}
+
+
+/* para el celular */
+
+@media (max-width: 576px)
+{
+    .conteiner
+    {
+        flex-direction: column;
+    }
+
+    .redes
+    {
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+}

@@ -1,0 +1,36 @@
+
+    <div class="row">
+
+        <div class="conteiner">
+            <div class = "logos"> 
+                <img src="../../../assets/ARGENTINA-PROGRAMA.jpg" alt="" id="logo">
+                
+            </div>
+            
+            <div class = "redes"> 
+             
+                <a href="https://www.instagram.com/agus_.moya/?hl=es" target="_blank"><img src="../../../assets/instagram.png" id="logoInsta"></a>
+                <a href="https://twitter.com/Moyagustin1" target="_blank"><img src="../../../assets/gorjeo.png" id="logoTwit"></a>
+                <a href="https://www.facebook.com/aguuss.mooyaa/" target="_blank"><img src="../../../assets/facebook.png" id="logoFace"></a>
+                <a href="https://www.linkedin.com/in/agustin-moya-44443b1a3/"target="_blank"><img src="../../../assets/linkedin.png" id="logoLinke"></a>
+                <a href="https://github.com/AgustinMoyaArancibia"target="_blank"><img src="../../../assets/git.png" id="logoGit"></a>
+                <button type="button" class="btn btn-outline-dark" (click)="login()" *ngIf = "!isLogged"> Ingresar</button>
+                <button type="button" class="btn btn-outline-dark" (click)="onLogOut()" *ngIf = "isLogged"> Cerrar Sesion</button>
+                
+            </div>
+
+        </div>
+
+        
+
+    
+    </div>
+
+    <div class="row">
+        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">      
+            <app-banner></app-banner>
+        </div>
+    </div>
+
+
+
